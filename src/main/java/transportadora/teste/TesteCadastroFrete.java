@@ -23,7 +23,7 @@ public class TesteCadastroFrete {
         tx.begin();
         ItemFrete item1 = new ItemFrete("Livro", 1.0f);
         ItemFrete item2 = new ItemFrete("Notebook", 2.0f);
-        ItemFrete item3 = new ItemFrete("Livro", 1.0f);
+        ItemFrete item3 = new ItemFrete("Celular", 1.2f);
 
 
         Frete frete = new Frete();
