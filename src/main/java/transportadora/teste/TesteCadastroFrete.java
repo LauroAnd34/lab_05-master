@@ -5,7 +5,6 @@ import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
 import transportadora.entity.*;
-import transportadora.repository.FreteRepository;
 import transportadora.service.CadastroFreteService;
 
 
