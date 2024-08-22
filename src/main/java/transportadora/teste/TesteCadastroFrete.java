@@ -49,7 +49,7 @@ public class TesteCadastroFrete {
         Frete frete3 = new Frete();
         frete3.setCategoriaFrete(em.find(CategoriaFrete.class, 1));
         frete3.setNumeroNotaFiscal(12642);
-        frete3.setCliente(em.find(Cliente.class, 1));
+        frete3.setCliente(em.find(Cliente.class, 2));
         frete3.setVeiculo(em.find(Veiculo.class, 1));
         frete3.setCidadeOrigem(em.find(Cidade.class, 2));
         frete3.setCidadeDestino(em.find(Cidade.class, 1));
